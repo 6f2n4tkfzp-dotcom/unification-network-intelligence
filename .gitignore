@@ -1,0 +1,57 @@
+# Secrets and private configuration
+.env
+.env.*
+!.env.example
+.htpasswd
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.credentials
+config.local.php
+config.production.php
+*.local.php
+*.production.php
+
+# Private collectors and runtime data
+/fund-monitor/
+/fund-live/
+/private/
+/runtime/
+/data/
+/backups/
+/logs/
+/sessions/
+/cache/
+
+# Operational JSON
+status.json
+latest.json
+history.json
+weekly.json
+network_intelligence.json
+collector_health.json
+wallet_movements.json
+core_live.json
+network_events.json
+
+# Databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.log
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+
+# Dependencies and local files
+/vendor/
+/node_modules/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
